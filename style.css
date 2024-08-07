@@ -1,0 +1,16 @@
+.checkerboard {
+    width: 100px;
+    height: 100px;
+}
+.checkerboard :nth-child() {
+    background-color: black;
+}
+.checkerboard :nth-child(even) {
+    background-color: white;
+}
+.row {
+    margin: 0;
+}
+.col {
+    padding: 0;
+}
